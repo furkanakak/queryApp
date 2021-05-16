@@ -25,7 +25,7 @@ import java.util.Comparator;
 
 
 public class Query1Activity extends AppCompatActivity {
-    ArrayList<Model> modellist= new ArrayList<>();
+    private ArrayList<Model> modellist= new ArrayList<>();
     ArrayList<Model> list= new ArrayList<>();
     TextView gun1,gun2,gun3,gun4,gun5,mesafe1,mesafe2,mesafe3,mesafe4,mesafe5;
     Button buttonnext,buttonback,buttonshow;
@@ -33,9 +33,10 @@ public class Query1Activity extends AppCompatActivity {
     Boolean aBoolean;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        aBoolean=false;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_query1);
+        aBoolean=false;
+
         tableLayout = findViewById(R.id.tableLayout);
         gun1 = findViewById(R.id.gun1);
         gun2 = findViewById(R.id.gun2);
@@ -75,8 +76,6 @@ public class Query1Activity extends AppCompatActivity {
                 mesafe3.setText(modellist.get(2).getTrip_distance()+"");
                 mesafe4.setText(modellist.get(3).getTrip_distance()+"");
                 mesafe5.setText(modellist.get(4).getTrip_distance()+"");
-
-
 
 
             }
@@ -121,12 +120,7 @@ public class Query1Activity extends AppCompatActivity {
         });
 
 
-
-
-
-
     }
-
 
 
     class Mesafe_Siralama implements Comparator<Model> {

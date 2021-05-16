@@ -27,6 +27,23 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        query2 = findViewById(R.id.Query2);
+        query2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Query2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        query3 = findViewById(R.id.Query3);
+        query3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Query3Activity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }

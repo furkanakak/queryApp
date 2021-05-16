@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Query3Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#6BC14C"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Query3gun"
+            android:layout_width="27dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="12"
+            android:maxLength="2"
+            android:backgroundTint="#6BC14C"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/" />
+
+        <EditText
+            android:id="@+id/Query3ay"
+            android:layout_width="27dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="07"
+            android:maxLength="2"
+            android:backgroundTint="#6BC14C"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/" />
+
+        <EditText
+            android:id="@+id/Query3yil"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="2020"
+            android:backgroundTint="#6BC14C"
+            android:maxLength="4"
+            />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUNUCU LISTELE" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="370dp"
+        android:layout_height="430dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+    </FrameLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
