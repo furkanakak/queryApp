@@ -25,7 +25,7 @@ public class MapsFragment extends Fragment {
 
 
             LatLng konum = new LatLng(41.050895, 29.0261451);
-            googleMap.addMarker(new MarkerOptions().position(konum).title("Hedef"));
+        //  googleMap.addMarker(new MarkerOptions().position(konum).title("Hedef"));
             googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(konum,3.16f));
         }
     };

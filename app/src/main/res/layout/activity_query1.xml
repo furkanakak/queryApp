@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:textAlignment="center"
-    tools:context=".Query1Activity">
+    tools:context=".Query1Activity"
+    android:background="#E7FDFA">
 
 
     <androidx.appcompat.widget.LinearLayoutCompat
